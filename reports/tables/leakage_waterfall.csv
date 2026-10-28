@@ -1,0 +1,8 @@
+step,roc_auc,delta
+"As delivered (all columns, random split)",0.9996,
+"Fix label: predict the request, drop pending",0.97579,-0.02381
+"Drop post-outcome columns (survey, win-back)",0.97189,-0.0039
+Recompute history columns point in time,0.80486,-0.16703
+Fit target encoding on train folds only,0.72676,-0.07809
+"...and since it adds nothing, drop it",0.72634,-0.00042
+"Out-of-time split (train <= Aug-25, test Nov/Dec-25)",0.69407,-0.03227

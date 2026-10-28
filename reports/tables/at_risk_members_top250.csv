@@ -1,0 +1,251 @@
+member_id,plan,billing_cycle,tenure_days,monthly_price,p_cancel_30d,reason_1,reason_2,reason_3,revenue_at_risk_12m,risk_decile,tenure_band
+M15122,family,monthly,22,79.0,0.304,Visits per month of tenure,Lifetime visits,Plan,691.4815,1,0-3 mo
+M15913,family,monthly,18,79.0,0.3027,Visits per month of tenure,Lifetime visits,Plan,690.4461,1,0-3 mo
+M15681,family,monthly,18,79.0,0.2612,Visits per month of tenure,Lifetime visits,Plan,653.5293,1,0-3 mo
+M15977,family,monthly,8,79.0,0.2593,Visits per month of tenure,Lifetime visits,Plan,651.637,1,0-3 mo
+M15177,family,monthly,12,79.0,0.2504,Visits per month of tenure,Lifetime visits,Plan,642.4748,1,0-3 mo
+M14792,family,monthly,36,79.0,0.2408,Visits per month of tenure,Lifetime visits,Plan,631.9134,1,0-3 mo
+M15123,family,monthly,24,79.0,0.239,Visits per month of tenure,Plan,Lifetime visits,629.9485,1,0-3 mo
+M15191,family,monthly,6,79.0,0.2337,Visits per month of tenure,Lifetime visits,Plan,623.8739,1,0-3 mo
+M15117,family,monthly,5,79.0,0.2336,Visits per month of tenure,Lifetime visits,Plan,623.7399,1,0-3 mo
+M15489,family,monthly,5,79.0,0.2314,Visits per month of tenure,Lifetime visits,Plan,621.164,1,0-3 mo
+M15036,family,monthly,9,79.0,0.2312,Visits per month of tenure,Lifetime visits,Plan,620.8766,1,0-3 mo
+M15871,family,monthly,3,79.0,0.2305,Visits per month of tenure,Lifetime visits,Plan,620.0316,1,0-3 mo
+M15429,family,monthly,5,79.0,0.2294,Visits per month of tenure,Lifetime visits,Plan,618.7641,1,0-3 mo
+M15300,family,monthly,3,79.0,0.2286,Visits per month of tenure,Lifetime visits,Plan,617.7468,1,0-3 mo
+M15394,family,monthly,6,79.0,0.2274,Visits per month of tenure,Lifetime visits,Plan,616.2803,1,0-3 mo
+M15116,family,monthly,28,79.0,0.2262,Visits per month of tenure,Plan,Lifetime visits,614.8155,1,0-3 mo
+M13694,family,monthly,74,79.0,0.2254,Visits per month of tenure,Plan,Lifetime visits,613.8105,1,0-3 mo
+M14466,family,monthly,50,79.0,0.2217,Plan,Lifetime visits,Visits per month of tenure,609.3225,1,0-3 mo
+M15200,family,monthly,5,79.0,0.2204,Visits per month of tenure,Plan,Lifetime visits,607.6266,1,0-3 mo
+M15433,family,monthly,6,79.0,0.2196,Visits per month of tenure,Lifetime visits,Plan,606.5888,1,0-3 mo
+M15530,family,monthly,10,79.0,0.2188,Visits per month of tenure,Lifetime visits,Plan,605.5727,1,0-3 mo
+M15438,family,monthly,17,79.0,0.2145,Visits per month of tenure,Plan,Lifetime visits,600.0869,1,0-3 mo
+M13984,family,monthly,85,79.0,0.2114,Visits per month of tenure,Lifetime visits,Plan,595.8801,1,0-3 mo
+M13218,family,monthly,110,79.0,0.2052,Plan,Tenure (days),Billing cycle,587.4176,1,3-6 mo
+M14525,family,monthly,34,79.0,0.203,Visits per month of tenure,Plan,Lifetime visits,584.3793,1,0-3 mo
+M15196,family,monthly,3,79.0,0.2023,Visits per month of tenure,Lifetime visits,Plan,583.441,1,0-3 mo
+M15943,family,monthly,4,79.0,0.2006,Visits per month of tenure,Lifetime visits,Plan,581.0098,1,0-3 mo
+M15296,family,monthly,18,79.0,0.1966,Visits per month of tenure,Plan,Lifetime visits,575.1931,1,0-3 mo
+M14337,family,monthly,52,79.0,0.1958,Visits per month of tenure,Plan,Lifetime visits,574.0548,1,0-3 mo
+M15019,family,monthly,19,79.0,0.1946,Plan,Lifetime visits,Visits per month of tenure,572.2423,1,0-3 mo
+M15709,family,monthly,12,79.0,0.1946,Plan,Lifetime visits,Distance to cafe (km),572.2173,1,0-3 mo
+M15526,family,monthly,17,79.0,0.1931,Plan,Distance to cafe (km),Lifetime visits,570.0116,1,0-3 mo
+M13945,family,monthly,66,79.0,0.1931,Visits per month of tenure,Plan,Lifetime visits,569.9845,1,0-3 mo
+M15430,family,monthly,16,79.0,0.1926,Visits per month of tenure,Lifetime visits,Plan,569.3543,1,0-3 mo
+M15098,family,annual,14,79.0,0.1896,Visits per month of tenure,Lifetime visits,Plan,564.7228,1,0-3 mo
+M13597,family,monthly,63,79.0,0.1867,Plan,Visits per month of tenure,Lifetime visits,560.35,1,0-3 mo
+M15967,family,monthly,5,79.0,0.1851,Visits per month of tenure,Lifetime visits,Plan,557.8291,1,0-3 mo
+M15824,family,monthly,11,79.0,0.1768,Visits per month of tenure,Lifetime visits,Plan,544.4623,1,0-3 mo
+M15368,family,annual,21,79.0,0.1768,Visits per month of tenure,Plan,Lifetime visits,544.3894,1,0-3 mo
+M14216,family,monthly,36,79.0,0.1767,Visits per month of tenure,Lifetime visits,Plan,544.3035,1,0-3 mo
+M15792,family,annual,19,79.0,0.1756,Visits per month of tenure,Lifetime visits,Plan,542.3793,1,0-3 mo
+M15272,family,monthly,10,79.0,0.1753,Visits per month of tenure,Plan,Lifetime visits,542.0289,1,0-3 mo
+M15912,family,annual,16,79.0,0.1742,Visits per month of tenure,Lifetime visits,Plan,540.0268,1,0-3 mo
+M15376,family,monthly,31,79.0,0.1723,Plan,Visits per month of tenure,Lifetime visits,536.8891,1,0-3 mo
+M13719,family,monthly,74,79.0,0.1715,Plan,Billing cycle,Lifetime visits,535.5273,1,0-3 mo
+M15220,family,monthly,16,79.0,0.1702,Visits per month of tenure,Plan,Lifetime visits,533.3568,1,0-3 mo
+M13428,family,monthly,74,79.0,0.1682,Plan,Billing cycle,Lifetime visits,529.8171,1,0-3 mo
+M10961,family,monthly,163,79.0,0.1671,Visits per month of tenure,Plan,Billing cycle,527.897,1,3-6 mo
+M12823,family,monthly,99,79.0,0.1668,"Adopted a cat, last 90d",Plan,Billing cycle,527.4356,1,3-6 mo
+M14912,family,monthly,57,79.0,0.1652,Plan,Billing cycle,"Visits, last 30 days",524.5156,1,0-3 mo
+M14189,family,monthly,39,79.0,0.1651,Visits per month of tenure,Plan,Lifetime visits,524.4492,1,0-3 mo
+M12635,family,monthly,98,79.0,0.1626,Plan,Billing cycle,Distance to cafe (km),519.8345,1,3-6 mo
+M15270,family,monthly,29,79.0,0.159,Plan,Lifetime visits,Billing cycle,513.4063,1,0-3 mo
+M04692,family,monthly,460,79.0,0.1578,Plan,Visits per month of tenure,Billing cycle,511.1676,1,12+ mo
+M07612,family,monthly,317,79.0,0.1572,Visits per month of tenure,Plan,Lifetime visits,509.9812,1,6-12 mo
+M15760,family,monthly,25,79.0,0.155,Plan,Lifetime visits,Billing cycle,505.9468,1,0-3 mo
+M14173,family,monthly,57,79.0,0.1541,Plan,Billing cycle,Distance to cafe (km),504.1149,1,0-3 mo
+M14289,family,monthly,44,79.0,0.1538,Visits per month of tenure,Plan,Lifetime visits,503.5877,1,0-3 mo
+M14430,family,monthly,44,79.0,0.1516,Plan,Lifetime visits,Billing cycle,499.3028,1,0-3 mo
+M12091,family,monthly,136,79.0,0.1513,Plan,Billing cycle,Distance to cafe (km),498.835,1,3-6 mo
+M14718,family,monthly,38,79.0,0.1508,Plan,Visits per month of tenure,Lifetime visits,497.7612,1,0-3 mo
+M13275,family,monthly,109,79.0,0.1502,Plan,Tenure (days),Billing cycle,496.6186,1,3-6 mo
+M15804,family,monthly,24,79.0,0.1499,Plan,Lifetime visits,Billing cycle,495.9875,1,0-3 mo
+M14191,family,monthly,39,79.0,0.1498,Plan,Lifetime visits,Billing cycle,495.7819,1,0-3 mo
+M10026,family,monthly,217,79.0,0.1491,Plan,Visits per month of tenure,Billing cycle,494.4498,1,6-12 mo
+M14364,family,monthly,48,79.0,0.1478,Plan,Distance to cafe (km),Billing cycle,491.9942,1,0-3 mo
+M09488,family,monthly,233,79.0,0.1475,Plan,Visits per month of tenure,Billing cycle,491.2822,1,6-12 mo
+M14330,family,monthly,37,79.0,0.1469,Plan,Lifetime visits,Billing cycle,490.1417,1,0-3 mo
+M15450,family,monthly,14,79.0,0.1465,Visits per month of tenure,Plan,Lifetime visits,489.2503,1,0-3 mo
+M12956,family,monthly,103,79.0,0.1454,Plan,Distance to cafe (km),Billing cycle,487.2008,2,3-6 mo
+M02804,family,monthly,569,79.0,0.1453,Plan,Billing cycle,Visits per month of tenure,486.9329,2,12+ mo
+M04833,family,monthly,431,79.0,0.1453,Plan,Distance to cafe (km),Billing cycle,486.898,2,12+ mo
+M13540,family,monthly,62,79.0,0.1445,Plan,Lifetime visits,Billing cycle,485.2165,2,0-3 mo
+M11832,family,monthly,163,79.0,0.1439,Plan,Visits per month of tenure,Billing cycle,484.1437,2,3-6 mo
+M15894,family,monthly,6,79.0,0.143,Visits per month of tenure,Plan,Lifetime visits,482.2779,2,0-3 mo
+M09713,family,monthly,236,79.0,0.1407,Plan,Billing cycle,Distance to cafe (km),477.5581,2,6-12 mo
+M07787,family,monthly,311,79.0,0.1387,Visits per month of tenure,Plan,Billing cycle,473.3109,2,6-12 mo
+M15093,family,monthly,6,79.0,0.1385,Plan,Lifetime visits,Visits per month of tenure,472.9437,2,0-3 mo
+M13184,family,monthly,94,79.0,0.1382,Plan,Visits per month of tenure,Billing cycle,472.2799,2,3-6 mo
+M15510,family,monthly,21,79.0,0.1382,Plan,Lifetime visits,"Visits, days 31-90",472.2528,2,0-3 mo
+M12689,family,monthly,100,79.0,0.1371,Plan,Visits per month of tenure,Billing cycle,470.0297,2,3-6 mo
+M09340,family,monthly,272,79.0,0.1363,Visits per month of tenure,Plan,Billing cycle,468.2856,2,6-12 mo
+M14614,family,monthly,47,79.0,0.1356,Plan,Lifetime visits,Billing cycle,466.7244,2,0-3 mo
+M14192,family,monthly,61,79.0,0.1349,Plan,Lifetime visits,Visits per month of tenure,465.1986,2,0-3 mo
+M15416,family,annual,6,79.0,0.1341,Visits per month of tenure,Lifetime visits,Plan,463.4669,2,0-3 mo
+M15358,family,monthly,19,79.0,0.1313,Plan,Lifetime visits,Visits per month of tenure,457.3726,2,0-3 mo
+M15966,family,monthly,24,79.0,0.1303,Plan,Lifetime visits,Visits per month of tenure,455.3298,2,0-3 mo
+M09857,family,monthly,215,79.0,0.13,Plan,Visits per month of tenure,Billing cycle,454.5326,2,6-12 mo
+M13488,family,monthly,66,79.0,0.1299,Plan,Billing cycle,Tenure (days),454.3112,2,0-3 mo
+M14680,family,monthly,56,79.0,0.1297,Plan,Lifetime visits,Billing cycle,453.8121,2,0-3 mo
+M15329,family,monthly,12,79.0,0.1285,Plan,Lifetime visits,Distance to cafe (km),451.3151,2,0-3 mo
+M14763,family,annual,45,79.0,0.1274,Plan,Visits per month of tenure,Lifetime visits,448.7587,2,0-3 mo
+M15040,family,annual,15,79.0,0.1274,Plan,Lifetime visits,Visits per month of tenure,448.6447,2,0-3 mo
+M09616,family,monthly,225,79.0,0.1271,Plan,Distance to cafe (km),Billing cycle,448.0543,2,6-12 mo
+M15308,family,annual,2,79.0,0.1254,Visits per month of tenure,Lifetime visits,Plan,444.2385,2,0-3 mo
+M02285,family,monthly,598,79.0,0.125,Plan,Visits per month of tenure,"Visits, days 31-90",443.2098,2,12+ mo
+M14162,family,monthly,77,79.0,0.1244,Plan,Billing cycle,"Visits, last 30 days",442.0228,2,0-3 mo
+M15563,plus,monthly,21,49.0,0.3286,Visits per month of tenure,Lifetime visits,Plan,440.1164,1,0-3 mo
+M14521,family,monthly,38,79.0,0.1234,Plan,Lifetime visits,Billing cycle,439.5573,2,0-3 mo
+M10083,family,monthly,229,79.0,0.1232,Plan,Billing cycle,Distance to cafe (km),439.1871,2,6-12 mo
+M15594,family,annual,11,79.0,0.123,Visits per month of tenure,Plan,Lifetime visits,438.6473,2,0-3 mo
+M13108,family,monthly,116,79.0,0.1223,Plan,Billing cycle,Tenure (days),437.0132,2,3-6 mo
+M03971,family,monthly,495,79.0,0.122,Plan,Billing cycle,Distance to cafe (km),436.3201,2,12+ mo
+M15941,plus,monthly,14,49.0,0.312,Visits per month of tenure,Plan,Lifetime visits,432.7225,1,0-3 mo
+M15555,plus,monthly,16,49.0,0.3099,Visits per month of tenure,Plan,Lifetime visits,431.7086,1,0-3 mo
+M14670,plus,monthly,37,49.0,0.3043,Visits per month of tenure,Plan,Lifetime visits,429.0329,1,0-3 mo
+M08191,family,monthly,288,79.0,0.1175,Plan,Visits per month of tenure,Billing cycle,425.6314,2,6-12 mo
+M15682,plus,monthly,21,49.0,0.2935,Visits per month of tenure,Plan,Lifetime visits,423.6255,1,0-3 mo
+M15227,plus,monthly,17,49.0,0.2928,Visits per month of tenure,Plan,Lifetime visits,423.2797,1,0-3 mo
+M15830,family,monthly,21,79.0,0.1158,Plan,Lifetime visits,"Visits, days 31-90",421.6267,2,0-3 mo
+M15638,plus,monthly,13,49.0,0.2882,Visits per month of tenure,Plan,Lifetime visits,420.8588,1,0-3 mo
+M00872,family,monthly,689,79.0,0.1153,Visits per month of tenure,Plan,Billing cycle,420.4776,2,12+ mo
+M15306,plus,monthly,13,49.0,0.2874,Visits per month of tenure,Plan,Lifetime visits,420.4172,1,0-3 mo
+M12412,family,monthly,131,79.0,0.1146,Plan,Billing cycle,Days since last visit,418.7018,2,3-6 mo
+M15320,plus,monthly,25,49.0,0.2841,Visits per month of tenure,Plan,Lifetime visits,418.6656,1,0-3 mo
+M15342,plus,monthly,23,49.0,0.2839,Visits per month of tenure,Plan,Lifetime visits,418.5175,1,0-3 mo
+M08007,family,monthly,325,79.0,0.1144,Plan,Visits per month of tenure,Billing cycle,418.2662,2,6-12 mo
+M13481,family,monthly,89,79.0,0.1142,Plan,Billing cycle,Distance to cafe (km),417.6798,2,0-3 mo
+M15744,plus,monthly,27,49.0,0.2809,Visits per month of tenure,Lifetime visits,Plan,416.8973,1,0-3 mo
+M15826,plus,monthly,10,49.0,0.2805,Visits per month of tenure,Plan,Lifetime visits,416.6964,1,0-3 mo
+M10771,family,annual,201,79.0,0.1137,Visits per month of tenure,Plan,Distance to cafe (km),416.3295,2,6-12 mo
+M15808,family,monthly,29,79.0,0.1133,Plan,Lifetime visits,Billing cycle,415.4467,2,0-3 mo
+M15906,plus,monthly,18,49.0,0.2765,Visits per month of tenure,Plan,Lifetime visits,414.4332,1,0-3 mo
+M15535,plus,monthly,21,49.0,0.2762,Plan,Visits per month of tenure,Lifetime visits,414.2499,1,0-3 mo
+M14477,family,annual,45,79.0,0.1118,Plan,Visits per month of tenure,Lifetime visits,411.7917,2,0-3 mo
+M15454,plus,monthly,15,49.0,0.2703,Visits per month of tenure,Plan,Lifetime visits,410.8776,1,0-3 mo
+M10458,family,monthly,193,79.0,0.1109,Plan,Billing cycle,"Failed bookings, 90d",409.5,2,6-12 mo
+M08697,family,monthly,270,79.0,0.1108,Plan,Visits per month of tenure,Billing cycle,409.3201,2,6-12 mo
+M15360,family,monthly,30,79.0,0.1104,Plan,Lifetime visits,Billing cycle,408.2623,2,0-3 mo
+M08024,family,monthly,281,79.0,0.1102,Plan,Billing cycle,"Visits, last 30 days",407.8124,2,6-12 mo
+M15911,plus,monthly,10,49.0,0.2633,Visits per month of tenure,Plan,Lifetime visits,406.6291,1,0-3 mo
+M14648,family,monthly,36,79.0,0.1096,Plan,Lifetime visits,Billing cycle,406.2631,2,0-3 mo
+M15573,plus,monthly,8,49.0,0.2618,Visits per month of tenure,Plan,Lifetime visits,405.7058,1,0-3 mo
+M14972,family,monthly,45,79.0,0.1092,Plan,Lifetime visits,Billing cycle,405.2855,2,0-3 mo
+M05010,family,monthly,428,79.0,0.1088,Plan,Distance to cafe (km),Billing cycle,404.0595,2,12+ mo
+M05429,family,monthly,402,79.0,0.1087,Plan,Billing cycle,Visits per month of tenure,403.8663,2,12+ mo
+M07700,family,monthly,318,79.0,0.1085,Plan,Billing cycle,Distance to cafe (km),403.3057,2,6-12 mo
+M15809,plus,monthly,29,49.0,0.2576,Plan,Visits per month of tenure,Lifetime visits,403.1236,1,0-3 mo
+M10306,family,monthly,209,79.0,0.1082,Plan,Visits per month of tenure,Billing cycle,402.5386,2,6-12 mo
+M14424,plus,monthly,36,49.0,0.2558,Visits per month of tenure,Plan,Lifetime visits,401.9455,1,0-3 mo
+M14472,plus,monthly,39,49.0,0.2556,Plan,Visits per month of tenure,Lifetime visits,401.8493,1,0-3 mo
+M13427,family,monthly,69,79.0,0.1075,Plan,Billing cycle,"Visits, days 31-90",400.8864,2,0-3 mo
+M10971,family,monthly,154,79.0,0.1073,Plan,Billing cycle,Distance to cafe (km),400.1994,2,3-6 mo
+M14795,plus,monthly,47,49.0,0.2513,Visits per month of tenure,Plan,Lifetime visits,399.0901,1,0-3 mo
+M13388,family,annual,106,79.0,0.1067,Plan,Visits per month of tenure,Tenure (days),398.8244,2,3-6 mo
+M15762,family,monthly,7,79.0,0.1067,Plan,Visits per month of tenure,Lifetime visits,398.7321,2,0-3 mo
+M15355,family,annual,28,79.0,0.1067,Visits per month of tenure,Plan,Lifetime visits,398.7065,2,0-3 mo
+M15056,plus,monthly,24,49.0,0.249,Plan,Visits per month of tenure,Lifetime visits,397.5424,1,0-3 mo
+M15849,family,annual,24,79.0,0.1061,Visits per month of tenure,Plan,Lifetime visits,397.1507,2,0-3 mo
+M12183,family,monthly,124,79.0,0.1059,Plan,Distance to cafe (km),Billing cycle,396.6566,2,3-6 mo
+M14304,family,monthly,39,79.0,0.1056,Plan,Lifetime visits,"Visits, days 31-90",395.9406,2,0-3 mo
+M15197,family,monthly,24,79.0,0.1056,Plan,Lifetime visits,Billing cycle,395.8719,2,0-3 mo
+M15424,plus,monthly,10,49.0,0.2451,Visits per month of tenure,Plan,Lifetime visits,394.9258,1,0-3 mo
+M15962,plus,monthly,25,49.0,0.245,Plan,Visits per month of tenure,Lifetime visits,394.8748,1,0-3 mo
+M10156,family,monthly,235,79.0,0.1041,Plan,Billing cycle,"Visits, last 30 days",391.937,2,6-12 mo
+M14768,family,monthly,58,79.0,0.104,Plan,Lifetime visits,Billing cycle,391.6532,2,0-3 mo
+M12317,family,annual,139,79.0,0.1039,Visits per month of tenure,Plan,Lifetime visits,391.4415,2,3-6 mo
+M14698,family,monthly,47,79.0,0.1038,Plan,Billing cycle,Distance to cafe (km),391.2672,2,0-3 mo
+M05495,family,monthly,399,79.0,0.1037,Plan,Billing cycle,Visits per month of tenure,390.9579,2,12+ mo
+M15014,plus,monthly,6,49.0,0.2391,Visits per month of tenure,Plan,Lifetime visits,390.8092,1,0-3 mo
+M15902,plus,monthly,6,49.0,0.2384,Visits per month of tenure,Plan,Lifetime visits,390.3203,1,0-3 mo
+M06985,plus,monthly,336,49.0,0.238,Plan,Visits per month of tenure,"Visits, days 31-90",390.0017,1,6-12 mo
+M15796,plus,monthly,5,49.0,0.2354,Visits per month of tenure,Plan,Lifetime visits,388.1535,1,0-3 mo
+M15619,plus,monthly,11,49.0,0.235,Visits per month of tenure,Plan,Lifetime visits,387.8311,1,0-3 mo
+M14588,plus,monthly,46,49.0,0.2346,Visits per month of tenure,Plan,Lifetime visits,387.6079,1,0-3 mo
+M15853,plus,monthly,21,49.0,0.2345,Visits per month of tenure,Plan,Lifetime visits,387.5356,1,0-3 mo
+M14357,family,monthly,36,79.0,0.1024,Plan,Lifetime visits,Distance to cafe (km),387.5065,2,0-3 mo
+M14531,family,monthly,32,79.0,0.1024,Plan,Lifetime visits,Distance to cafe (km),387.4701,2,0-3 mo
+M15316,plus,monthly,3,49.0,0.2342,Visits per month of tenure,Plan,Lifetime visits,387.2927,1,0-3 mo
+M14933,family,annual,47,79.0,0.1022,Visits per month of tenure,Plan,Lifetime visits,386.9569,2,0-3 mo
+M08319,family,monthly,295,79.0,0.102,Plan,Distance to cafe (km),Billing cycle,386.5858,2,6-12 mo
+M15398,plus,monthly,2,49.0,0.2316,Visits per month of tenure,Plan,Lifetime visits,385.3811,1,0-3 mo
+M15700,plus,monthly,1,49.0,0.2314,Visits per month of tenure,Plan,Lifetime visits,385.2241,1,0-3 mo
+M15145,plus,monthly,14,49.0,0.2313,Plan,Visits per month of tenure,Lifetime visits,385.2044,1,0-3 mo
+M15921,plus,monthly,1,49.0,0.2303,Visits per month of tenure,Plan,Lifetime visits,384.4191,1,0-3 mo
+M01455,family,annual,620,79.0,0.1012,"Adopted a cat, last 90d",Plan,Distance to cafe (km),384.3783,2,12+ mo
+M15810,plus,monthly,3,49.0,0.2302,Visits per month of tenure,Plan,Lifetime visits,384.3468,1,0-3 mo
+M15850,plus,monthly,5,49.0,0.2297,Visits per month of tenure,Plan,Lifetime visits,383.957,1,0-3 mo
+M12126,family,monthly,147,79.0,0.101,Plan,Distance to cafe (km),Billing cycle,383.8148,3,3-6 mo
+M13012,family,monthly,96,79.0,0.1009,Plan,Billing cycle,"Failed bookings, 90d",383.4939,3,3-6 mo
+M13730,family,monthly,86,79.0,0.1009,Plan,Billing cycle,Tenure (days),383.4921,3,0-3 mo
+M15049,plus,monthly,2,49.0,0.2285,Visits per month of tenure,Plan,Lifetime visits,383.1058,1,0-3 mo
+M15537,plus,monthly,1,49.0,0.2284,Visits per month of tenure,Plan,Lifetime visits,383.0012,1,0-3 mo
+M15895,plus,monthly,1,49.0,0.228,Visits per month of tenure,Plan,Lifetime visits,382.6865,1,0-3 mo
+M15369,plus,monthly,15,49.0,0.2278,Plan,Visits per month of tenure,Lifetime visits,382.561,1,0-3 mo
+M15606,plus,monthly,1,49.0,0.2274,Visits per month of tenure,Plan,Lifetime visits,382.2635,1,0-3 mo
+M14303,plus,monthly,38,49.0,0.2271,Visits per month of tenure,Plan,Lifetime visits,382.0164,1,0-3 mo
+M15262,plus,monthly,3,49.0,0.2267,Visits per month of tenure,Plan,Lifetime visits,381.7255,1,0-3 mo
+M11978,family,monthly,151,79.0,0.1001,Plan,Billing cycle,Distance to cafe (km),381.2864,3,3-6 mo
+M15847,plus,monthly,2,49.0,0.2261,Visits per month of tenure,Plan,Lifetime visits,381.2599,1,0-3 mo
+M15947,plus,monthly,2,49.0,0.2257,Visits per month of tenure,Plan,Lifetime visits,380.9995,1,0-3 mo
+M14302,plus,monthly,44,49.0,0.2257,Plan,Lifetime visits,Visits per month of tenure,380.9864,1,0-3 mo
+M15882,plus,monthly,1,49.0,0.2254,Visits per month of tenure,Plan,Lifetime visits,380.7825,1,0-3 mo
+M15780,family,annual,19,79.0,0.0998,Plan,Lifetime visits,"Visits, days 31-90",380.7001,3,0-3 mo
+M15972,plus,monthly,8,49.0,0.2247,Visits per month of tenure,Plan,Lifetime visits,380.1846,1,0-3 mo
+M15846,plus,monthly,13,49.0,0.2245,Plan,Visits per month of tenure,Lifetime visits,380.0808,1,0-3 mo
+M15160,family,annual,1,79.0,0.0996,Visits per month of tenure,Plan,Lifetime visits,379.9754,3,0-3 mo
+M11150,family,monthly,178,79.0,0.0994,Plan,Distance to cafe (km),Billing cycle,379.4884,3,3-6 mo
+M12632,plus,monthly,108,49.0,0.2236,Plan,Visits per month of tenure,Billing cycle,379.3618,1,3-6 mo
+M14350,family,monthly,36,79.0,0.099,Plan,Billing cycle,Distance to cafe (km),378.369,3,0-3 mo
+M15359,plus,monthly,1,49.0,0.2197,Visits per month of tenure,Plan,Lifetime visits,376.2995,1,0-3 mo
+M14086,family,monthly,81,79.0,0.0982,Plan,Billing cycle,Tenure (days),376.2825,3,0-3 mo
+M07506,family,monthly,332,79.0,0.0982,Plan,Distance to cafe (km),Billing cycle,376.1979,3,6-12 mo
+M15825,plus,monthly,15,49.0,0.2185,Plan,Visits per month of tenure,Lifetime visits,375.407,1,0-3 mo
+M05545,family,monthly,414,79.0,0.0979,Plan,Billing cycle,Distance to cafe (km),375.3736,3,12+ mo
+M15468,plus,monthly,20,49.0,0.2185,Plan,Visits per month of tenure,Lifetime visits,375.3429,1,0-3 mo
+M11335,family,monthly,165,79.0,0.0977,Plan,Visits per month of tenure,Billing cycle,374.9618,3,3-6 mo
+M15928,plus,monthly,9,49.0,0.2179,Visits per month of tenure,Plan,Lifetime visits,374.8773,1,0-3 mo
+M15230,plus,monthly,2,49.0,0.2178,Visits per month of tenure,Plan,Lifetime visits,374.7907,1,0-3 mo
+M13332,plus,monthly,104,49.0,0.2161,Plan,Visits per month of tenure,Billing cycle,373.4759,1,3-6 mo
+M12526,family,monthly,133,79.0,0.0971,Plan,Billing cycle,Distance to cafe (km),373.2041,3,3-6 mo
+M06212,family,monthly,379,79.0,0.097,Plan,Distance to cafe (km),Billing cycle,373.0879,3,12+ mo
+M14605,plus,monthly,40,49.0,0.2151,Plan,Visits per month of tenure,Lifetime visits,372.6932,1,0-3 mo
+M15406,plus,monthly,18,49.0,0.2144,Plan,Visits per month of tenure,Lifetime visits,372.0884,1,0-3 mo
+M15685,plus,monthly,16,49.0,0.214,Visits per month of tenure,Plan,Lifetime visits,371.7184,1,0-3 mo
+M13536,plus,monthly,68,49.0,0.2138,Plan,Visits per month of tenure,Lifetime visits,371.5568,1,0-3 mo
+M07985,family,monthly,333,79.0,0.0962,Plan,Billing cycle,Distance to cafe (km),370.6848,3,6-12 mo
+M13943,plus,monthly,67,49.0,0.2123,Plan,Visits per month of tenure,Lifetime visits,370.3593,1,0-3 mo
+M14918,family,monthly,48,79.0,0.096,Plan,Billing cycle,Lifetime visits,370.1745,3,0-3 mo
+M04886,plus,monthly,457,49.0,0.212,"Adopted a cat, last 90d",Plan,Billing cycle,370.0786,1,12+ mo
+M13356,family,monthly,111,79.0,0.0958,Plan,Billing cycle,Tenure (days),369.6952,3,3-6 mo
+M15136,plus,monthly,11,49.0,0.2115,Visits per month of tenure,Plan,Lifetime visits,369.669,1,0-3 mo
+M13215,plus,monthly,117,49.0,0.2114,Plan,Visits per month of tenure,Tenure (days),369.655,1,3-6 mo
+M14558,plus,monthly,48,49.0,0.2112,Plan,Visits per month of tenure,Lifetime visits,369.4149,1,0-3 mo
+M10725,plus,monthly,195,49.0,0.2106,Plan,Visits per month of tenure,Billing cycle,368.9233,1,6-12 mo
+M15666,plus,monthly,7,49.0,0.2096,Visits per month of tenure,Plan,Lifetime visits,368.0928,1,0-3 mo
+M15015,plus,monthly,4,49.0,0.2094,Visits per month of tenure,Plan,Lifetime visits,367.97,1,0-3 mo
+M12555,plus,monthly,124,49.0,0.2092,Visits per month of tenure,Plan,Lifetime visits,367.8151,1,3-6 mo
+M06467,family,monthly,381,79.0,0.0951,Visits per month of tenure,Plan,"Visits, last 30 days",367.7863,3,12+ mo
+M15266,plus,monthly,5,49.0,0.2091,Visits per month of tenure,Plan,Lifetime visits,367.7282,1,0-3 mo
+M15706,plus,monthly,5,49.0,0.2086,Visits per month of tenure,Plan,Lifetime visits,367.2388,1,0-3 mo
+M10625,plus,monthly,191,49.0,0.2073,Plan,Visits per month of tenure,Billing cycle,366.189,1,6-12 mo
+M08050,plus,monthly,276,49.0,0.207,Plan,Visits per month of tenure,Billing cycle,365.9391,1,6-12 mo
+M14703,plus,monthly,60,49.0,0.2063,Plan,Visits per month of tenure,Lifetime visits,365.2889,1,0-3 mo
+M13613,family,annual,62,79.0,0.0941,Plan,Visits per month of tenure,Lifetime visits,365.0383,3,0-3 mo
+M15317,plus,monthly,6,49.0,0.2057,Visits per month of tenure,Plan,Lifetime visits,364.7956,1,0-3 mo
+M15486,plus,monthly,3,49.0,0.2041,Visits per month of tenure,Plan,Lifetime visits,363.4339,1,0-3 mo
+M07333,plus,monthly,356,49.0,0.2038,Plan,Visits per month of tenure,Billing cycle,363.13,1,6-12 mo
+M14736,plus,monthly,41,49.0,0.2035,Plan,Lifetime visits,Billing cycle,362.8988,1,0-3 mo
+M12049,family,annual,149,79.0,0.0933,Visits per month of tenure,Plan,"Visits, days 31-90",362.6864,3,3-6 mo
+M15269,family,monthly,13,79.0,0.0933,Plan,Lifetime visits,Billing cycle,362.5511,3,0-3 mo
+M15629,plus,monthly,12,49.0,0.2031,Plan,Visits per month of tenure,Lifetime visits,362.5272,1,0-3 mo
+M15259,plus,monthly,6,49.0,0.2024,Visits per month of tenure,Plan,Lifetime visits,361.9622,1,0-3 mo
+M15595,plus,monthly,3,49.0,0.2021,Visits per month of tenure,Plan,Lifetime visits,361.7266,1,0-3 mo
+M13699,plus,monthly,65,49.0,0.2017,Plan,Lifetime visits,Billing cycle,361.381,1,0-3 mo
+M15029,family,annual,22,79.0,0.0926,Plan,Lifetime visits,"Visits, days 31-90",360.8329,3,0-3 mo
+M15338,plus,monthly,16,49.0,0.2011,Visits per month of tenure,Plan,Lifetime visits,360.8242,1,0-3 mo
+M15423,plus,monthly,18,49.0,0.2006,Plan,Visits per month of tenure,Lifetime visits,360.3954,1,0-3 mo
+M15217,plus,monthly,3,49.0,0.2,Visits per month of tenure,Lifetime visits,Plan,359.7982,1,0-3 mo
+M15055,plus,monthly,18,49.0,0.1999,Plan,Visits per month of tenure,Lifetime visits,359.7753,1,0-3 mo

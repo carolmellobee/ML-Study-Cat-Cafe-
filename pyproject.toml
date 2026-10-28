@@ -1,0 +1,22 @@
+[project]
+name = "catcafe-churn"
+version = "1.0.0"
+description = "Cat cafe membership churn: leakage audit, SHAP, revenue at risk, and a retention A/B test with its traps"
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+filterwarnings = ["ignore::UserWarning:shap.*"]
+
+[tool.ruff]
+line-length = 110

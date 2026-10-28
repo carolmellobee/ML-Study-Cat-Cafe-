@@ -1,0 +1,20 @@
+feature,mean_abs_shap,label
+visits_per_month,0.33084,Visits per month of tenure
+plan,0.28874,Plan
+billing_cycle,0.25495,Billing cycle
+lifetime_visits,0.16392,Lifetime visits
+visits_31_90d,0.1228,"Visits, days 31-90"
+distance_km,0.11398,Distance to cafe (km)
+visits_30d,0.10589,"Visits, last 30 days"
+price_increase_recent,0.06056,Price increase in last 60 days
+acquisition_channel,0.06045,Acquisition channel
+tenure_days,0.05164,Tenure (days)
+events_90d,0.04826,"Events attended, 90d"
+booking_failures_90d,0.03752,"Failed bookings, 90d"
+adopted_cat_90d,0.03191,"Adopted a cat, last 90d"
+days_since_last_visit,0.0302,Days since last visit
+booking_failure_rate_90d,0.02556,"Share of bookings that failed, 90d"
+visit_trend,0.01557,Visit trend (30d vs prior)
+location,0.00439,Location
+support_tickets_90d,0.00283,"Support tickets, 90d"
+adopted_cat_ever,0.00235,Has adopted a cat

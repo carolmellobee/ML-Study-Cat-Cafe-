@@ -1,0 +1,1248 @@
+{
+  "leakage": {
+    "single_feature_screen": [
+      {
+        "column": "cancel_request_pending",
+        "single_feature_auc": 0.9836287376539035,
+        "flag": true
+      },
+      {
+        "column": "lifetime_visits",
+        "single_feature_auc": 0.8411362158662744,
+        "flag": true
+      },
+      {
+        "column": "days_since_last_visit",
+        "single_feature_auc": 0.8257782761177581,
+        "flag": true
+      },
+      {
+        "column": "winback_offer_sent",
+        "single_feature_auc": 0.7766929193027677,
+        "flag": false
+      },
+      {
+        "column": "exit_survey_score",
+        "single_feature_auc": 0.7158543729970024,
+        "flag": false
+      },
+      {
+        "column": "promo_code_churn_rate",
+        "single_feature_auc": 0.6879513026701992,
+        "flag": false
+      },
+      {
+        "column": "visits_90d",
+        "single_feature_auc": 0.6485371202276934,
+        "flag": false
+      },
+      {
+        "column": "visits_30d",
+        "single_feature_auc": 0.6403889236049236,
+        "flag": false
+      },
+      {
+        "column": "tenure_days",
+        "single_feature_auc": 0.5855542442506365,
+        "flag": false
+      },
+      {
+        "column": "events_90d",
+        "single_feature_auc": 0.5658858771136894,
+        "flag": false
+      },
+      {
+        "column": "billing_cycle",
+        "single_feature_auc": 0.5521463641113197,
+        "flag": false
+      },
+      {
+        "column": "booking_failures_90d",
+        "single_feature_auc": 0.5468211463687856,
+        "flag": false
+      },
+      {
+        "column": "has_adopted_cat",
+        "single_feature_auc": 0.5358922441034625,
+        "flag": false
+      },
+      {
+        "column": "monthly_price",
+        "single_feature_auc": 0.5293593515979589,
+        "flag": false
+      },
+      {
+        "column": "acquisition_channel",
+        "single_feature_auc": 0.5214359216454793,
+        "flag": false
+      },
+      {
+        "column": "distance_km",
+        "single_feature_auc": 0.5118923197181805,
+        "flag": false
+      },
+      {
+        "column": "plan",
+        "single_feature_auc": 0.5090344035370101,
+        "flag": false
+      },
+      {
+        "column": "location",
+        "single_feature_auc": 0.5028172209774039,
+        "flag": false
+      },
+      {
+        "column": "support_tickets_90d",
+        "single_feature_auc": 0.5003501641607054,
+        "flag": false
+      },
+      {
+        "column": "promo_code",
+        "single_feature_auc": 0.500005745807892,
+        "flag": false
+      }
+    ],
+    "missingness": [
+      {
+        "column": "days_since_last_visit",
+        "null_rate_pos": 0.05060208361520768,
+        "null_rate_neg": 0.001503917547457538,
+        "gap": 0.049098166067750144,
+        "flag": false
+      },
+      {
+        "column": "exit_survey_score",
+        "null_rate_pos": 0.35218508997429304,
+        "null_rate_neg": 0.7739706578324657,
+        "gap": 0.4217855678581726,
+        "flag": true
+      }
+    ],
+    "information_timing": [
+      {
+        "column": "exit_survey_score",
+        "non_empty_rows": 26280,
+        "source_event_after_snapshot": 21661,
+        "share_from_future": 0.8242389649923897
+      },
+      {
+        "column": "winback_offer_sent",
+        "non_empty_rows": 34384,
+        "source_event_after_snapshot": 28812,
+        "share_from_future": 0.8379478827361564
+      },
+      {
+        "column": "has_adopted_cat",
+        "non_empty_rows": 13051,
+        "source_event_after_snapshot": 6800,
+        "share_from_future": 0.5210328710443645
+      }
+    ],
+    "point_in_time_mismatch": [
+      {
+        "column": "lifetime_visits",
+        "rows_compared": 95327,
+        "mismatch_share": 0.990118224637301,
+        "impossible_share": null
+      },
+      {
+        "column": "days_since_last_visit",
+        "rows_compared": 95327,
+        "mismatch_share": 0.9944716607047321,
+        "impossible_share": 0.305427612318982
+      },
+      {
+        "column": "has_adopted_cat",
+        "rows_compared": 95327,
+        "mismatch_share": 0.07133341026152087,
+        "impossible_share": null
+      }
+    ],
+    "label_already_known": {
+      "positives": 7391,
+      "share_request_before_snapshot": 0.9672574753078068,
+      "pending_rows_in_population": 7149
+    },
+    "target_encoding": {
+      "cardinality": 3720,
+      "share_codes_single_member": 0.5922043010752688,
+      "auc_delivered_encoding": 0.6879513026701992,
+      "auc_out_of_fold_encoding": 0.500005745807892
+    },
+    "split_random": {
+      "test_rows_whose_member_is_in_train": 0.9691759379665752,
+      "test_members_seen_in_train": 0.9478314874236622,
+      "train_rows_after_earliest_test_date": 0.9869543401906673
+    },
+    "split_out_of_time": {
+      "test_rows_whose_member_is_in_train": 0.6985435559219566,
+      "test_members_seen_in_train": 0.6589873417721519,
+      "train_rows_after_earliest_test_date": 0.0
+    },
+    "waterfall": [
+      {
+        "step": "As delivered (all columns, random split)",
+        "roc_auc": 0.9995964030773656,
+        "delta": null
+      },
+      {
+        "step": "Fix label: predict the request, drop pending",
+        "roc_auc": 0.9757885838389883,
+        "delta": -0.02380781923837738
+      },
+      {
+        "step": "Drop post-outcome columns (survey, win-back)",
+        "roc_auc": 0.971886580928578,
+        "delta": -0.003902002910410207
+      },
+      {
+        "step": "Recompute history columns point in time",
+        "roc_auc": 0.8048562710301009,
+        "delta": -0.16703030989847711
+      },
+      {
+        "step": "Fit target encoding on train folds only",
+        "roc_auc": 0.7267616050911159,
+        "delta": -0.07809466593898506
+      },
+      {
+        "step": "...and since it adds nothing, drop it",
+        "roc_auc": 0.7263425638574584,
+        "delta": -0.0004190412336574356
+      },
+      {
+        "step": "Out-of-time split (train <= Aug-25, test Nov/Dec-25)",
+        "roc_auc": 0.6940680312986542,
+        "delta": -0.03227453255880419
+      }
+    ],
+    "figures": {
+      "waterfall": "figures/leakage_waterfall.png",
+      "screen": "figures/leakage_single_feature_screen.png"
+    },
+    "traps_ground_truth": {
+      "cancel_request_pending": "L1 label definition: outcome already decided at snapshot",
+      "exit_survey_score": "L2 target leakage: only exists after a member cancels",
+      "winback_offer_sent": "L3 post-outcome treatment: CRM sends it after the cancel request",
+      "lifetime_visits": "L4 time travel: member dimension refreshed on export date",
+      "days_since_last_visit": "L4 time travel: measured to the export date, not the snapshot",
+      "has_adopted_cat": "L4 time travel: includes adoptions after the snapshot",
+      "promo_code_churn_rate": "L5 target encoding fitted on all rows incl. the test set",
+      "(random row split)": "L6 split leakage: same member and future months in train and test"
+    }
+  },
+  "churn": {
+    "rows": {
+      "train": 67384,
+      "valid": 13387,
+      "test": 14556
+    },
+    "best_iteration": 223,
+    "test_metrics": {
+      "lightgbm_calibrated": {
+        "n": 14556,
+        "positives": 1004,
+        "base_rate": 0.06897499312998076,
+        "roc_auc": 0.7294713927642441,
+        "pr_auc": 0.16757990013249552,
+        "brier": 0.061067770615497285,
+        "log_loss": 0.22906511700308904,
+        "precision_top10": 0.19848901098901098,
+        "lift_top10": 2.8776952629044263,
+        "recall_top10": 0.28784860557768926,
+        "expected_vs_observed": 0.92263033264699
+      },
+      "lightgbm_uncalibrated": {
+        "n": 14556,
+        "positives": 1004,
+        "base_rate": 0.06897499312998076,
+        "roc_auc": 0.7294713927642441,
+        "pr_auc": 0.16757990013249552,
+        "brier": 0.06118550881884475,
+        "log_loss": 0.22960283742679669,
+        "precision_top10": 0.19848901098901098,
+        "lift_top10": 2.8776952629044263,
+        "recall_top10": 0.28784860557768926,
+        "expected_vs_observed": 0.8711074895935614
+      },
+      "logistic_regression": {
+        "n": 14556,
+        "positives": 1004,
+        "base_rate": 0.06897499312998076,
+        "roc_auc": 0.7252299832547026,
+        "pr_auc": 0.16854092060451306,
+        "brier": 0.06130659060955434,
+        "log_loss": 0.2309712608198355,
+        "precision_top10": 0.19917582417582416,
+        "lift_top10": 2.8876526859594587,
+        "recall_top10": 0.28884462151394424,
+        "expected_vs_observed": 0.8427755240598784
+      },
+      "rule_days_since_last_visit": {
+        "roc_auc": 0.5505323378857652,
+        "pr_auc": 0.08417543952607695,
+        "lift_top10": 1.4438263429797293,
+        "recall_top10": 0.14442231075697212
+      }
+    },
+    "v1_model": {
+      "features": [
+        "plan",
+        "billing_cycle",
+        "location",
+        "acquisition_channel",
+        "tenure_days",
+        "distance_km",
+        "monthly_price",
+        "price_increase_exposed",
+        "visits_30d",
+        "visits_31_90d",
+        "visit_trend",
+        "days_since_last_visit",
+        "lifetime_visits",
+        "visits_per_month",
+        "booking_failures_90d",
+        "support_tickets_90d",
+        "events_90d",
+        "adopted_cat_90d",
+        "adopted_cat_ever"
+      ],
+      "test_metrics_uncalibrated": {
+        "n": 14556,
+        "positives": 1004,
+        "base_rate": 0.06897499312998076,
+        "roc_auc": 0.7021303069892801,
+        "pr_auc": 0.1471413061059979,
+        "brier": 0.0622787948305098,
+        "log_loss": 0.23565750649122819,
+        "precision_top10": 0.1778846153846154,
+        "lift_top10": 2.578972571253448,
+        "recall_top10": 0.25796812749003983,
+        "expected_vs_observed": 1.2046327107316042
+      }
+    },
+    "scoring": {
+      "members": 7794,
+      "mean_p": 0.06574893644087643,
+      "expected_requests_jan26": 512.4472106201908
+    },
+    "figures": {
+      "calibration": "figures/churn_calibration.png",
+      "lift": "figures/churn_gains.png"
+    },
+    "shap_importance": [
+      {
+        "feature": "visits_per_month",
+        "mean_abs_shap": 0.3308415871509496,
+        "label": "Visits per month of tenure"
+      },
+      {
+        "feature": "plan",
+        "mean_abs_shap": 0.288735604031577,
+        "label": "Plan"
+      },
+      {
+        "feature": "billing_cycle",
+        "mean_abs_shap": 0.2549522859458415,
+        "label": "Billing cycle"
+      },
+      {
+        "feature": "lifetime_visits",
+        "mean_abs_shap": 0.16392343634529005,
+        "label": "Lifetime visits"
+      },
+      {
+        "feature": "visits_31_90d",
+        "mean_abs_shap": 0.12279805623267548,
+        "label": "Visits, days 31-90"
+      },
+      {
+        "feature": "distance_km",
+        "mean_abs_shap": 0.11398154595100572,
+        "label": "Distance to cafe (km)"
+      },
+      {
+        "feature": "visits_30d",
+        "mean_abs_shap": 0.10588816244943902,
+        "label": "Visits, last 30 days"
+      },
+      {
+        "feature": "price_increase_recent",
+        "mean_abs_shap": 0.06055684114308665,
+        "label": "Price increase in last 60 days"
+      },
+      {
+        "feature": "acquisition_channel",
+        "mean_abs_shap": 0.060446324187426646,
+        "label": "Acquisition channel"
+      },
+      {
+        "feature": "tenure_days",
+        "mean_abs_shap": 0.05164320757206928,
+        "label": "Tenure (days)"
+      },
+      {
+        "feature": "events_90d",
+        "mean_abs_shap": 0.04826006510267859,
+        "label": "Events attended, 90d"
+      },
+      {
+        "feature": "booking_failures_90d",
+        "mean_abs_shap": 0.037516009426083775,
+        "label": "Failed bookings, 90d"
+      },
+      {
+        "feature": "adopted_cat_90d",
+        "mean_abs_shap": 0.03191275394201957,
+        "label": "Adopted a cat, last 90d"
+      },
+      {
+        "feature": "days_since_last_visit",
+        "mean_abs_shap": 0.030201776043525263,
+        "label": "Days since last visit"
+      },
+      {
+        "feature": "booking_failure_rate_90d",
+        "mean_abs_shap": 0.025564450493783447,
+        "label": "Share of bookings that failed, 90d"
+      },
+      {
+        "feature": "visit_trend",
+        "mean_abs_shap": 0.015573316175202237,
+        "label": "Visit trend (30d vs prior)"
+      },
+      {
+        "feature": "location",
+        "mean_abs_shap": 0.00439173933107503,
+        "label": "Location"
+      },
+      {
+        "feature": "support_tickets_90d",
+        "mean_abs_shap": 0.002834819350503052,
+        "label": "Support tickets, 90d"
+      },
+      {
+        "feature": "adopted_cat_ever",
+        "mean_abs_shap": 0.0023503140121571304,
+        "label": "Has adopted a cat"
+      }
+    ],
+    "shap_figures": {
+      "importance": "figures/shap_importance.png",
+      "beeswarm": "figures/shap_beeswarm.png",
+      "dependence": "figures/shap_dependence.png",
+      "waterfall": "figures/shap_waterfall_member.png"
+    },
+    "adopted_cat_odds_multiplier": 1.922917788245401,
+    "v1_shap_importance": [
+      {
+        "feature": "visits_per_month",
+        "mean_abs_shap": 0.31728278360999784
+      },
+      {
+        "feature": "monthly_price",
+        "mean_abs_shap": 0.31683059200252256
+      },
+      {
+        "feature": "billing_cycle",
+        "mean_abs_shap": 0.25421041298488184
+      },
+      {
+        "feature": "lifetime_visits",
+        "mean_abs_shap": 0.1751269665288733
+      },
+      {
+        "feature": "distance_km",
+        "mean_abs_shap": 0.1329643984341855
+      },
+      {
+        "feature": "visits_31_90d",
+        "mean_abs_shap": 0.11776800656468181
+      },
+      {
+        "feature": "visits_30d",
+        "mean_abs_shap": 0.10205708972824114
+      },
+      {
+        "feature": "acquisition_channel",
+        "mean_abs_shap": 0.06598523650885163
+      }
+    ]
+  },
+  "revenue": {
+    "members": 7794,
+    "total_mrr": 313968.0,
+    "mrr_at_risk_30d": 21271.795629462642,
+    "revenue_at_risk_12m": 1013180.8452708228,
+    "annual_run_rate": 3767616.0,
+    "share_of_annual_run_rate": 0.2689182881882927,
+    "top_decile_share": 0.23718970775867784,
+    "top_3_deciles_share": 0.5510746319641392,
+    "by_decile": [
+      {
+        "risk_decile": 1,
+        "members": 780,
+        "mean_p": 0.19861916836347246,
+        "mrr": 33240.0,
+        "revenue_at_risk_12m": 240316.06859647663,
+        "share_of_risk": 0.23718970775867784
+      },
+      {
+        "risk_decile": 2,
+        "members": 779,
+        "mean_p": 0.11995391626276866,
+        "mrr": 32555.0,
+        "revenue_at_risk_12m": 177371.2440063713,
+        "share_of_risk": 0.17506375572957072
+      },
+      {
+        "risk_decile": 3,
+        "members": 779,
+        "mean_p": 0.08757872213554765,
+        "mrr": 32141.0,
+        "revenue_at_risk_12m": 140650.9488178862,
+        "share_of_risk": 0.13882116847589068
+      },
+      {
+        "risk_decile": 4,
+        "members": 780,
+        "mean_p": 0.06628366053158402,
+        "mrr": 32432.0,
+        "revenue_at_risk_12m": 114610.95122810603,
+        "share_of_risk": 0.11311993486954501
+      },
+      {
+        "risk_decile": 5,
+        "members": 779,
+        "mean_p": 0.05226574317294845,
+        "mrr": 32965.0,
+        "revenue_at_risk_12m": 96048.00546531491,
+        "share_of_risk": 0.09479848135072207
+      },
+      {
+        "risk_decile": 6,
+        "members": 779,
+        "mean_p": 0.041304327062895115,
+        "mrr": 32259.0,
+        "revenue_at_risk_12m": 76897.41855785421,
+        "share_of_risk": 0.07589703152875889
+      },
+      {
+        "risk_decile": 7,
+        "members": 780,
+        "mean_p": 0.03315760253333176,
+        "mrr": 31568.0,
+        "revenue_at_risk_12m": 61989.57005023876,
+        "share_of_risk": 0.06118312474972716
+      },
+      {
+        "risk_decile": 8,
+        "members": 779,
+        "mean_p": 0.026337235491719495,
+        "mrr": 30385.0,
+        "revenue_at_risk_12m": 48487.05714718069,
+        "share_of_risk": 0.04785627104332013
+      },
+      {
+        "risk_decile": 9,
+        "members": 779,
+        "mean_p": 0.019571734835731634,
+        "mrr": 29097.0,
+        "revenue_at_risk_12m": 35262.89485545133,
+        "share_of_risk": 0.034804146781935635
+      },
+      {
+        "risk_decile": 10,
+        "members": 780,
+        "mean_p": 0.012356379737119108,
+        "mrr": 27326.0,
+        "revenue_at_risk_12m": 21546.68654594264,
+        "share_of_risk": 0.021266377711851848
+      }
+    ],
+    "by_plan": [
+      {
+        "plan": "basic",
+        "members": 5448,
+        "mean_p": 0.06306196697314521,
+        "mrr": 182424.0,
+        "mrr_at_risk_30d": 11729.202357674894,
+        "revenue_at_risk_12m": 561428.891751381,
+        "share_of_risk": 0.5541250551389089
+      },
+      {
+        "plan": "family",
+        "members": 553,
+        "mean_p": 0.07638325249026323,
+        "mrr": 43687.0,
+        "mrr_at_risk_30d": 3336.95515154213,
+        "revenue_at_risk_12m": 157445.0270173568,
+        "share_of_risk": 0.15539676628536322
+      },
+      {
+        "plan": "plus",
+        "members": 1793,
+        "mean_p": 0.07063339426847742,
+        "mrr": 87857.0,
+        "mrr_at_risk_30d": 6205.6381202456205,
+        "revenue_at_risk_12m": 294306.92650208494,
+        "share_of_risk": 0.29047817857572783
+      }
+    ],
+    "by_tenure": [
+      {
+        "tenure_band": "0-3 mo",
+        "members": 2083,
+        "mean_p": 0.11391116757740313,
+        "mrr": 84665.0,
+        "mrr_at_risk_30d": 9844.121975747503,
+        "revenue_at_risk_12m": 413786.85049515124,
+        "share_of_risk": 0.4084037439382761
+      },
+      {
+        "tenure_band": "3-6 mo",
+        "members": 1407,
+        "mean_p": 0.0629571100765537,
+        "mrr": 55817.0,
+        "mrr_at_risk_30d": 3592.075295602286,
+        "revenue_at_risk_12m": 178289.879053277,
+        "share_of_risk": 0.17597043991255104
+      },
+      {
+        "tenure_band": "6-12 mo",
+        "members": 1988,
+        "mean_p": 0.04707366367947825,
+        "mrr": 80756.0,
+        "mrr_at_risk_30d": 3955.1359037890616,
+        "revenue_at_risk_12m": 208869.3380692683,
+        "share_of_risk": 0.20615207940832875
+      },
+      {
+        "tenure_band": "12+ mo",
+        "members": 2316,
+        "mean_p": 0.04015852818823236,
+        "mrr": 92730.0,
+        "mrr_at_risk_30d": 3880.4624543237946,
+        "revenue_at_risk_12m": 212234.7776531262,
+        "share_of_risk": 0.20947373674084407
+      }
+    ],
+    "by_billing": [
+      {
+        "billing_cycle": "annual",
+        "members": 1942,
+        "mean_p": 0.038432089343941746,
+        "mrr": 71778.0,
+        "mrr_at_risk_30d": 2885.9669397072616,
+        "revenue_at_risk_12m": 155868.17182660848,
+        "share_of_risk": 0.15384042498843825
+      },
+      {
+        "billing_cycle": "monthly",
+        "members": 5852,
+        "mean_p": 0.07481409656771289,
+        "mrr": 242190.0,
+        "mrr_at_risk_30d": 18385.828689755384,
+        "revenue_at_risk_12m": 857312.6734442143,
+        "share_of_risk": 0.8461595750115617
+      }
+    ],
+    "by_driver": {
+      "Low or falling engagement": 439993.1373043063,
+      "Monthly billing & plan": 382215.882945897,
+      "Channel & distance": 114298.78156917437,
+      "Early tenure": 34024.59029429397,
+      "Capacity & service (failed bookings, tickets)": 26015.801861487318,
+      "Adopted a cat": 16632.651295663738,
+      "Recent price increase": 0.0
+    },
+    "figures": {
+      "concentration": "figures/revenue_concentration.png",
+      "drivers": "figures/revenue_by_driver.png"
+    },
+    "exit_reasons_sep_dec_2025": {
+      "other": 0.3031015037593985,
+      "not_using_it": 0.2617481203007519,
+      "too_crowded": 0.2518796992481203,
+      "moved_away": 0.13439849624060152,
+      "adopted_a_cat": 0.04887218045112782
+    },
+    "exit_reasons_n": 2128
+  },
+  "experiment": {
+    "power": {
+      "eligible_members": 7291,
+      "n_per_arm_available": 3645,
+      "baseline_60d_cancel_rate": 0.11810104972334168,
+      "alpha": 0.05,
+      "power": 0.8,
+      "requirements": [
+        {
+          "relative_reduction": 0.1,
+          "absolute_pp": 1.1810104972334168,
+          "n_per_arm": 11204,
+          "feasible": false
+        },
+        {
+          "relative_reduction": 0.15,
+          "absolute_pp": 1.771515745850125,
+          "n_per_arm": 4860,
+          "feasible": false
+        },
+        {
+          "relative_reduction": 0.2,
+          "absolute_pp": 2.3620209944668336,
+          "n_per_arm": 2666,
+          "feasible": true
+        },
+        {
+          "relative_reduction": 0.25,
+          "absolute_pp": 2.952526243083542,
+          "n_per_arm": 1661,
+          "feasible": true
+        },
+        {
+          "relative_reduction": 0.3,
+          "absolute_pp": 3.54303149170025,
+          "n_per_arm": 1121,
+          "feasible": true
+        }
+      ],
+      "mde_relative": 0.17232361512016445,
+      "mde_absolute_pp": 2.0351599837812535,
+      "simulated_power_at_mde": 0.805,
+      "segment_mde": [
+        {
+          "tenure_band": "0-3 mo",
+          "members": 1306,
+          "baseline_60d": 0.22386118491343968,
+          "mde_relative": 0.27270080199735036
+        },
+        {
+          "tenure_band": "12+ mo",
+          "members": 2534,
+          "baseline_60d": 0.07704827592475436,
+          "mde_relative": 0.35174590161876507
+        },
+        {
+          "tenure_band": "3-6 mo",
+          "members": 1405,
+          "baseline_60d": 0.13187508745098514,
+          "mde_relative": 0.35192572036197556
+        },
+        {
+          "tenure_band": "6-12 mo",
+          "members": 2046,
+          "baseline_60d": 0.0919781119129865,
+          "mde_relative": 0.3554202070232972
+        }
+      ],
+      "figure": "figures/exp_power_curve.png",
+      "expected_cost_per_treated": 9.628884926621865,
+      "mean_clv12": 356.86668885961234,
+      "break_even_relative_reduction": 0.26543258492043154,
+      "interaction_sample_multiplier": 4.0
+    },
+    "next_test": {
+      "eligible_members": 4757,
+      "arms": 3,
+      "n_per_arm": 1585,
+      "baseline_60d": 0.13996939717039242,
+      "alpha_per_comparison": 0.025,
+      "mde_relative": 0.2557577888134316
+    },
+    "readout": {
+      "srm": {
+        "control": 3647,
+        "treatment": 3644,
+        "chi2": 0.0012343985735838706,
+        "p_value": 0.9719728830522834,
+        "srm_detected": false
+      },
+      "primary_cancel_60d": {
+        "control_rate": 0.12009871126953661,
+        "treatment_rate": 0.09165751920965971,
+        "diff": -0.0284411920598769,
+        "ci_low": -0.042550933629323245,
+        "ci_high": -0.014331450490430555,
+        "relative": -0.23681513114696584,
+        "relative_ci_low": -0.3330448879407417,
+        "relative_ci_high": -0.12670113248270176,
+        "z": -3.9463833425340336,
+        "p_value": 7.934055086504411e-05,
+        "n_control": 3647,
+        "n_treatment": 3644
+      },
+      "primary_regression_adjusted": {
+        "diff": -0.030148668618511475,
+        "se": 0.007054110111355112,
+        "ci_low": -0.0439747244367675,
+        "ci_high": -0.016322612800255452,
+        "p_value": 1.9207008639475888e-05
+      },
+      "guardrail_net_revenue_90d": {
+        "control_mean": 112.37729640800659,
+        "treatment_mean": 105.17299670691548,
+        "diff": -7.204299701091102,
+        "se": 0.932758953414132,
+        "ci_low": -9.032507249782801,
+        "ci_high": -5.376092152399403,
+        "p_value": 1.1304877255070644e-14
+      },
+      "secondary_visits_60d": {
+        "raw": {
+          "control_mean": 10.910611461475185,
+          "treatment_mean": 11.881448957189901,
+          "diff": 0.9708374957147168,
+          "se": 0.269719019033337,
+          "ci_low": 0.4421882184093763,
+          "ci_high": 1.4994867730200574,
+          "p_value": 0.0003189028841674733
+        },
+        "cuped": {
+          "control_mean": 10.81756830280072,
+          "treatment_mean": 11.974568715610806,
+          "diff": 1.1570004128100866,
+          "se": 0.19682591923921625,
+          "ci_low": 0.7712216111012227,
+          "ci_high": 1.5427792145189505,
+          "p_value": 4.145188690661573e-09,
+          "theta": 1.746892409206969,
+          "variance_reduction": 0.4674732431002162
+        }
+      },
+      "offer_cost_per_treated": 9.655762897914379
+    },
+    "peeking": {
+      "false_positive_rate": {
+        "final_look_only": 0.044,
+        "weekly_peeks": 0.158,
+        "daily_peeks": 0.2695,
+        "obf_6_looks": 0.0435
+      },
+      "obf_constant": 2.056726562206232,
+      "obf_boundaries": {
+        "10": 5.038,
+        "20": 3.562,
+        "30": 2.909,
+        "40": 2.519,
+        "50": 2.253,
+        "60": 2.057
+      },
+      "first_day_naive_p_below_05": 11,
+      "effect_at_naive_stop": -0.27308625570512446,
+      "first_obf_crossing_day": 30,
+      "effect_at_obf_stop": -0.24832682590189303,
+      "final_effect": -0.23681513114696584,
+      "final_z": -3.9463833425340336,
+      "figures": {
+        "aa": "figures/exp_peeking_aa.png",
+        "trajectory": "figures/exp_peeking_trajectory.png"
+      }
+    },
+    "novelty": {
+      "visit_lift_by_week": [
+        {
+          "week": 1,
+          "lift": 0.33403504929534233,
+          "ci_low": 0.26071153974480676,
+          "ci_high": 0.4116230847769211
+        },
+        {
+          "week": 2,
+          "lift": 0.156182698620851,
+          "ci_low": 0.09130861784291255,
+          "ci_high": 0.22491329284326445
+        },
+        {
+          "week": 3,
+          "lift": 0.05380537779120531,
+          "ci_low": -0.00650993408842393,
+          "ci_high": 0.11778246443030205
+        },
+        {
+          "week": 4,
+          "lift": 0.04273114468462169,
+          "ci_low": -0.01792199024372665,
+          "ci_high": 0.10713021704369363
+        },
+        {
+          "week": 5,
+          "lift": -0.00748404412788517,
+          "ci_low": -0.06413576252486275,
+          "ci_high": 0.052597036209440784
+        },
+        {
+          "week": 6,
+          "lift": -0.022765013848595972,
+          "ci_low": -0.0791108786011725,
+          "ci_high": 0.037028449969862764
+        },
+        {
+          "week": 7,
+          "lift": 0.010980157796594892,
+          "ci_low": -0.04759751005850654,
+          "ci_high": 0.07316065450565423
+        },
+        {
+          "week": 8,
+          "lift": 0.02949465590183431,
+          "ci_low": -0.03208057722058777,
+          "ci_high": 0.09498706357913123
+        }
+      ],
+      "hazard_ratio_by_period": [
+        {
+          "days": "1-10",
+          "hazard_ratio": 0.7784180997682645,
+          "ci_low": 0.5600436522213389,
+          "ci_high": 1.081941980135791,
+          "events_t": 63,
+          "events_c": 81
+        },
+        {
+          "days": "11-20",
+          "hazard_ratio": 0.7854285725523203,
+          "ci_low": 0.5533185477116577,
+          "ci_high": 1.1149057719696216,
+          "events_t": 56,
+          "events_c": 71
+        },
+        {
+          "days": "21-30",
+          "hazard_ratio": 0.6882102628285357,
+          "ci_low": 0.4937203139144055,
+          "ci_high": 0.959315127440015,
+          "events_t": 59,
+          "events_c": 85
+        },
+        {
+          "days": "31-40",
+          "hazard_ratio": 0.7788757453356414,
+          "ci_low": 0.5502416666600382,
+          "ci_high": 1.1025108846345557,
+          "events_t": 57,
+          "events_c": 72
+        },
+        {
+          "days": "41-50",
+          "hazard_ratio": 0.9149647269282372,
+          "ci_low": 0.6376647987138327,
+          "ci_high": 1.3128534822863245,
+          "events_t": 57,
+          "events_c": 61
+        },
+        {
+          "days": "51-60",
+          "hazard_ratio": 0.603827390144602,
+          "ci_low": 0.4110158053066589,
+          "ci_high": 0.887088798974063,
+          "events_t": 42,
+          "events_c": 68
+        }
+      ],
+      "visit_lift_fit": {
+        "long_run": 0.0004731819474471448,
+        "initial_extra": 0.3361349657454907,
+        "tau_weeks": 1.1982246064065514,
+        "half_life_weeks": 0.8305460076082513
+      },
+      "week2_readout_cancel": {
+        "control_rate": 0.030984370715656705,
+        "treatment_rate": 0.023600439077936335,
+        "diff": -0.007383931637720369,
+        "ci_low": -0.014861860614363488,
+        "ci_high": 9.399733892274855e-05,
+        "relative": -0.23831149276784236,
+        "relative_ci_low": -0.42242092223602135,
+        "relative_ci_high": 0.004484761282562477,
+        "z": -1.9347612494078197,
+        "p_value": 0.0530196003443878,
+        "n_control": 3647,
+        "n_treatment": 3644
+      },
+      "figures": {
+        "novelty": "figures/exp_novelty.png"
+      }
+    },
+    "segments": {
+      "table": [
+        {
+          "cut": "tenure_band",
+          "segment": "0-3 mo",
+          "members": 1306,
+          "control_rate": 0.2287480680061824,
+          "treatment_rate": 0.10166919575113809,
+          "diff": -0.1270788722550443,
+          "ci_low": -0.16682727811583947,
+          "ci_high": -0.08733046639424913,
+          "relative": -0.5555407456014436,
+          "relative_ci_low": -0.6598410782444899,
+          "relative_ci_high": -0.41925959842233473,
+          "z": -6.191675437739446,
+          "p_value": 5.952803112329452e-10,
+          "n_control": 647,
+          "n_treatment": 659,
+          "p_holm": 5.357522801096507e-09,
+          "reverses": false
+        },
+        {
+          "cut": "tenure_band",
+          "segment": "3-6 mo",
+          "members": 1405,
+          "control_rate": 0.14066852367688024,
+          "treatment_rate": 0.07569141193595343,
+          "diff": -0.06497711174092681,
+          "ci_low": -0.09719483084661734,
+          "ci_high": -0.032759392635236285,
+          "relative": -0.46191649732658857,
+          "relative_ci_low": -0.608394280582695,
+          "relative_ci_high": -0.26064957304478875,
+          "z": -3.9083304457337635,
+          "p_value": 9.293613583398133e-05,
+          "n_control": 718,
+          "n_treatment": 687,
+          "p_holm": 0.0007434890866718506,
+          "reverses": false
+        },
+        {
+          "cut": "tenure_band",
+          "segment": "6-12 mo",
+          "members": 2046,
+          "control_rate": 0.09603960396039604,
+          "treatment_rate": 0.06660231660231661,
+          "diff": -0.029437287358079434,
+          "ci_low": -0.0531170286399905,
+          "ci_high": -0.005757546076168362,
+          "relative": -0.3065119611511363,
+          "relative_ci_low": -0.4843245156971969,
+          "relative_ci_high": -0.06738700080602444,
+          "z": -2.4381375209689056,
+          "p_value": 0.014763156458296869,
+          "n_control": 1010,
+          "n_treatment": 1036,
+          "p_holm": 0.0442894693748906,
+          "reverses": false
+        },
+        {
+          "cut": "tenure_band",
+          "segment": "12+ mo",
+          "members": 2534,
+          "control_rate": 0.07232704402515723,
+          "treatment_rate": 0.11568938193343899,
+          "diff": 0.043362337908281756,
+          "ci_low": 0.020689420067946912,
+          "ci_high": 0.0660352557486166,
+          "relative": 0.5995314545579826,
+          "relative_ci_low": 0.24695350531764948,
+          "relative_ci_high": 1.0518013407954792,
+          "z": 3.7412334391898256,
+          "p_value": 0.0001831193320644514,
+          "n_control": 1272,
+          "n_treatment": 1262,
+          "p_holm": 0.0010987159923867085,
+          "reverses": true
+        },
+        {
+          "cut": "billing_cycle",
+          "segment": "monthly",
+          "members": 5425,
+          "control_rate": 0.13538575667655786,
+          "treatment_rate": 0.10113594723341883,
+          "diff": -0.03424980944313903,
+          "ci_low": -0.05141858230106392,
+          "ci_high": -0.017081036585214142,
+          "relative": -0.252979414407405,
+          "relative_ci_low": -0.35510634592040746,
+          "relative_ci_high": -0.13467941300251884,
+          "z": -3.907465410932553,
+          "p_value": 9.326938851393832e-05,
+          "n_control": 2696,
+          "n_treatment": 2729,
+          "p_holm": 0.0007434890866718506,
+          "reverses": false
+        },
+        {
+          "cut": "billing_cycle",
+          "segment": "annual",
+          "members": 1866,
+          "control_rate": 0.07676130389064142,
+          "treatment_rate": 0.0633879781420765,
+          "diff": -0.013373325748564924,
+          "ci_low": -0.03651508269086735,
+          "ci_high": 0.0097684311937375,
+          "relative": -0.1742196272176061,
+          "relative_ci_low": -0.40786698833561696,
+          "relative_ci_high": 0.15162169755725974,
+          "z": -1.1303440722685691,
+          "p_value": 0.258331270552405,
+          "n_control": 951,
+          "n_treatment": 915,
+          "p_holm": 0.2651112125570773,
+          "reverses": false
+        },
+        {
+          "cut": "plan",
+          "segment": "basic",
+          "members": 5130,
+          "control_rate": 0.11297234125438255,
+          "treatment_rate": 0.08817791650409676,
+          "diff": -0.024794424750285787,
+          "ci_low": -0.041240695909695826,
+          "ci_high": -0.008348153590875752,
+          "relative": -0.21947340804821935,
+          "relative_ci_low": -0.33824598925229354,
+          "relative_ci_high": -0.07938334962940319,
+          "z": -2.9521356602505997,
+          "p_value": 0.003155842493313922,
+          "n_control": 2567,
+          "n_treatment": 2563,
+          "p_holm": 0.01577921246656961,
+          "reverses": false
+        },
+        {
+          "cut": "plan",
+          "segment": "plus",
+          "members": 1654,
+          "control_rate": 0.12409638554216867,
+          "treatment_rate": 0.10072815533980582,
+          "diff": -0.023368230202362852,
+          "ci_low": -0.05378861792598709,
+          "ci_high": 0.007052157521261381,
+          "relative": -0.18830709774719578,
+          "relative_ci_low": -0.3819566619561908,
+          "relative_ci_high": 0.06601807189268505,
+          "z": -1.5041000545286003,
+          "p_value": 0.13255560627853866,
+          "n_control": 830,
+          "n_treatment": 824,
+          "p_holm": 0.2651112125570773,
+          "reverses": false
+        },
+        {
+          "cut": "plan",
+          "segment": "family",
+          "members": 507,
+          "control_rate": 0.18,
+          "treatment_rate": 0.09727626459143969,
+          "diff": -0.0827237354085603,
+          "ci_low": -0.1425627354545928,
+          "ci_high": -0.02288473536252779,
+          "relative": -0.459576307825335,
+          "relative_ci_low": -0.657765523068421,
+          "relative_ci_high": -0.1466150059390815,
+          "z": -2.699485158039243,
+          "p_value": 0.006944685336019457,
+          "n_control": 250,
+          "n_treatment": 257,
+          "p_holm": 0.027778741344077828,
+          "reverses": false
+        }
+      ],
+      "interaction_lr": 58.94143186432939,
+      "interaction_p": 9.893964948200573e-13,
+      "replication_12plus": [
+        {
+          "sample": "discovery_half",
+          "diff": 0.0418122525040764,
+          "ci_low": 0.00963741272812909,
+          "ci_high": 0.0739870922800237,
+          "p_value": 0.01121023355660788
+        },
+        {
+          "sample": "confirmation_half",
+          "diff": 0.044824124720873534,
+          "ci_low": 0.012871815068028834,
+          "ci_high": 0.07677643437371823,
+          "p_value": 0.005924450265975268
+        }
+      ],
+      "figure": "figures/exp_segments_forest.png"
+    },
+    "policy": {
+      "table": [
+        {
+          "policy": "Treat nobody",
+          "share_treated": 0.0,
+          "value_per_member_vs_nobody": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "total_vs_nobody": 0.0,
+          "cash_90d_per_member_vs_nobody": 0.0,
+          "break_even_cost_per_treated": null
+        },
+        {
+          "policy": "Treat everyone",
+          "share_treated": 1.0,
+          "value_per_member_vs_nobody": -1.500790931774958,
+          "ci_low": -6.8683341269818,
+          "ci_high": 3.731881120679218,
+          "total_vs_nobody": -10942.266683571219,
+          "cash_90d_per_member_vs_nobody": -7.293814291592369,
+          "break_even_cost_per_treated": 8.15099894615674
+        },
+        {
+          "policy": "Top 30% by churn risk",
+          "share_treated": 0.3000960087779454,
+          "value_per_member_vs_nobody": 3.24931656300906,
+          "ci_low": 0.013908708780613057,
+          "ci_high": 6.195139664886,
+          "total_vs_nobody": 23690.767060899056,
+          "cash_90d_per_member_vs_nobody": -0.6345905911397693,
+          "break_even_cost_per_treated": 20.889198839533403
+        },
+        {
+          "policy": "Top 50% by churn risk",
+          "share_treated": 0.5000685776985324,
+          "value_per_member_vs_nobody": 1.858818205881846,
+          "ci_low": -2.3357798866974746,
+          "ci_high": 5.817184957250804,
+          "total_vs_nobody": 13552.64353908454,
+          "cash_90d_per_member_vs_nobody": -2.07801398985049,
+          "break_even_cost_per_treated": 13.758486982743985
+        },
+        {
+          "policy": "Tenure under 12 months",
+          "share_treated": 0.652448223837608,
+          "value_per_member_vs_nobody": 7.791072036663508,
+          "ci_low": 3.5397712187778376,
+          "ci_high": 12.037500121446023,
+          "total_vs_nobody": 56804.70621931364,
+          "cash_90d_per_member_vs_nobody": -2.930023316417504,
+          "break_even_cost_per_treated": 21.636642047364642
+        },
+        {
+          "policy": "Learned tenure rule (cross-fitted)",
+          "share_treated": 0.652448223837608,
+          "value_per_member_vs_nobody": 7.791072036663508,
+          "ci_low": 3.5397712187778376,
+          "ci_high": 12.037500121446023,
+          "total_vs_nobody": 56804.70621931364,
+          "cash_90d_per_member_vs_nobody": -2.930023316417504,
+          "break_even_cost_per_treated": 21.636642047364642
+        }
+      ],
+      "cells_worth_treating_full_sample": [
+        "0-3 mo",
+        "3-6 mo",
+        "6-12 mo"
+      ],
+      "figure": "figures/exp_policy_value.png",
+      "members": 7291
+    },
+    "robustness": {
+      "seeds": 20,
+      "share_overall_significant": 0.85,
+      "share_12plus_reversal_significant_holm": 0.75,
+      "share_interaction_significant": 1.0,
+      "share_treat_everyone_loses_money": 0.9,
+      "share_under12_beats_everyone": 1.0,
+      "share_under12_beats_top30_risk": 0.8,
+      "mean_relative_effect": -0.21337042494123878,
+      "sd_relative_effect": 0.06625381733662902,
+      "mean_value_under12": 4.77444926267147,
+      "mean_value_everyone": -3.466530113797945,
+      "mean_value_top30": 2.8137679130513185
+    }
+  }
+}

@@ -1,0 +1,7 @@
+policy,share_treated,value_per_member_vs_nobody,ci_low,ci_high,total_vs_nobody,cash_90d_per_member_vs_nobody,break_even_cost_per_treated
+Treat nobody,0.0,0.0,0.0,0.0,0.0,0.0,
+Treat everyone,1.0,-1.50079,-6.86833,3.73188,-10942.26668,-7.29381,8.151
+Top 30% by churn risk,0.3001,3.24932,0.01391,6.19514,23690.76706,-0.63459,20.8892
+Top 50% by churn risk,0.50007,1.85882,-2.33578,5.81718,13552.64354,-2.07801,13.75849
+Tenure under 12 months,0.65245,7.79107,3.53977,12.0375,56804.70622,-2.93002,21.63664
+Learned tenure rule (cross-fitted),0.65245,7.79107,3.53977,12.0375,56804.70622,-2.93002,21.63664
